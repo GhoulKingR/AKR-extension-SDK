@@ -30,25 +30,5 @@ class AnimeExtension(ABC):
         print("Download complete!")
     
     @abstractmethod
-    def list_anime(self):
-        pass
-    
-    @abstractmethod
-    def search(self, anime_name):
-        pass
-
-    @abstractmethod
-    def get_anime_details(self):
-        pass
-    
-    @abstractmethod
-    def get_episode(): # This will cover other things until the download
-        pass
-
-    @abstractmethod
-    def download_episode():
-        pass
-
-    @abstractmethod
-    def quit():    # Close anything it needs to
+    def run(self, search):
         pass
